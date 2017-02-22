@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: skyblue;
+}
+
+.utilities {
+    position: absolute;
+    top: 90vh;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+}
+
+.message {
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.sky {
+    position: relative;
+}
+
+.plane {
+    position: absolute;
+    font-size: 35px;
+}
+
+.plane-id {
+    font-size: 20px;
+}
+
+.plane-id-user {
+    width: 90px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.cloud-icon {
+    color: #fff;
+}
+
+.correct {
+    background-color: lightgreen;
+}
+
+.incorrect {
+    background-color: lightcoral;
+}
